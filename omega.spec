@@ -144,14 +144,12 @@ rm -f $RPM_BUILD_ROOT%{_datadir}/omega/omega*
 ln -sf /var/games/omega/omega.hi $RPM_BUILD_ROOT%{_datadir}/omega/omega.hi
 ln -sf /var/games/omega/omega.log $RPM_BUILD_ROOT%{_datadir}/omega/omega.log
 
-gzip -9nf omega_faq.txt omega_spoiler.txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc omega_faq.txt omega_spoiler.txt
 %attr(2755,root,games) %{_bindir}/omega
 %{_datadir}/omega
 %dir /var/games/omega
