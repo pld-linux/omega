@@ -11,8 +11,8 @@ Source2:	http://yarws.kid.waw.pl/files/%{name}_faq.zip
 Patch0:		%{name}-config.patch
 Patch1:		%{name}-shit.patch
 URL:		http://www.alcyone.com/max/projects/omega/
-Requires:	gzip
 BuildRequires:	ncurses-devel
+Requires:	gzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_bindir		%{_prefix}/games
@@ -69,10 +69,11 @@ Satanic Male Voice: If you dare! <laughs insanely>
 
 %description -l pl
 (UJÊCIE POCZ¡TKOWE) Zmêczony POSZUKIWACZ PRZYGÓD w poobijanej zbroi,
-nosz±cy 10 ¶wiec±cych pier¶cieni, ¶ciskaj±cy w d³oni butelkê z napojem,
-i za³adowany wszelakimi rodzajami broni, magicznych urz±dzeñ oraz sakiew
-ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem do ponurego Lochu.
-Okoliczna sceneria jest jednako szara i nieinteresuj±ca.
+nosz±cy 10 ¶wiec±cych pier¶cieni, ¶ciskaj±cy w d³oni butelkê
+z napojem, i za³adowany wszelakimi rodzajami broni, magicznych
+urz±dzeñ oraz sakw ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem
+do ponurego Lochu. Okoliczna sceneria jest jednako szara
+i nieinteresuj±ca.
 
 Szorstki Mêski G³os: Odzyska³e¶ Amulet Yendoru zbyt wiele razy, by móc
 zliczyæ?
@@ -89,21 +90,22 @@ jest pociêta i posiniaczona. £ypie z niej czarne oko.
 POSZUKIWACZ PRZYGÓD skin±³ g³ow± ze zmêczeniem, a tak¿e, jak mo¿na
 zauwa¿yæ, z pewnym znudzeniem.
 
-SMG+ZKG: Zatem podejmij siê ostatecznego wyzwania... Ostatniego zadania...
-OMEGA!
+SMG+ZKG: Zatem podejmij siê ostatecznego wyzwania... Ostatniego
+zadania... OMEGA!
 
 (SPOJRZENIE W KIERUNKU NIEBA) Chór Mormoñskiej ¦wi±tyni: Ooooooo --
 mega!
 
 Jasny s³oneczny promieñ przebija siê przez zachmurzone niebo, ukazuj±c
-Mistyczny Portal w niebie. Têczowy most pêdzi od portalu ku POSZUKIWACZOWI
-PRZYGÓD. Gdy POSZUKIWACZ PRZYGÓD niepewnie stawia stopê na mo¶cie, zostaje
-(wraz z ogl±daj±cym) zmieciony poprzez M.P. w mistrzowskiej animacji
-komputerowej. Nastêpuje b³ysk ¶wiat³a i ODMIENIONY POSZUKIWACZ PRZYGÓD,
-w ¶wie¿o wypolerowanej, b³yszcz±cej zbroi, trzymaj±cy p³on±cy miecz,
-kroczy pewny siebie ku gmachowi, przy którym Zamek Ostatecznej Ciemnoty
-wygl±da jak zamek z piasku. Otaczaj±cy teren jest pe³en ¿ywych kolorów.
-Czuje siê, ¿e nowe wyzwania czekaj± tu¿ nad horyzontem.
+Mistyczny Portal w niebie. Têczowy most pêdzi od portalu ku
+POSZUKIWACZOWI PRZYGÓD. Gdy POSZUKIWACZ PRZYGÓD niepewnie stawia stopê
+na mo¶cie, zostaje (wraz z ogl±daj±cym) zmieciony poprzez M.P.
+w mistrzowskiej animacji komputerowej. Nastêpuje b³ysk ¶wiat³a
+i ODMIENIONY POSZUKIWACZ PRZYGÓD, w ¶wie¿o wypolerowanej, b³yszcz±cej
+zbroi, trzymaj±cy p³on±cy miecz, kroczy pewny siebie ku gmachowi, przy
+którym Zamek Ostatecznej Ciemnoty wygl±da jak zamek z piasku.
+Otaczaj±cy teren jest pe³en ¿ywych kolorów. Czuje siê, ¿e nowe
+wyzwania czekaj± tu¿ nad horyzontem.
 
 CM¦: Wspania³o¶æ! Wspania³o¶æ! Wspania³o¶æ!
 
@@ -111,11 +113,11 @@ SMG: Wkrótce na pobliskich maszynach!
 
 ZKG: Podejmij siê Omegi -- Ostatecznego Zadania!
 
-Gdy POSZUKIWACZ PRZYGÓD przekracza wej¶cie do STRASZLIWEGO ZAMKU, ogromna
-krata zatrzaskuje siê za nim z si³± grodzi Gwiazdy ¦mierci, po czym s³ychaæ
-g³uchy krzyk, szybko uciêty.
+Gdy POSZUKIWACZ PRZYGÓD przekracza wej¶cie do STRASZLIWEGO ZAMKU,
+ogromna krata zatrzaskuje siê za nim z si³± grodzi Gwiazdy ¦mierci, po
+czym s³ychaæ g³uchy krzyk, szybko uciêty.
 
-Szatanowski Mêski G³os: Je¿eli siê odwa¿ysz! <szalony ¶miech>
+Szatañski Mêski G³os: Je¿eli siê odwa¿ysz! <szalony ¶miech>
 
 %prep
 %setup -q -a1 -a2 -n %{name}
@@ -139,8 +141,8 @@ install docs/omega.6 $RPM_BUILD_ROOT%{_mandir}/man6
 
 touch $RPM_BUILD_ROOT/var/games/omega/omega.{hi,log}
 rm -f $RPM_BUILD_ROOT%{_datadir}/omega/omega*
-ln -s /var/games/omega/omega.hi $RPM_BUILD_ROOT%{_datadir}/omega/omega.hi
-ln -s /var/games/omega/omega.log $RPM_BUILD_ROOT%{_datadir}/omega/omega.log
+ln -sf /var/games/omega/omega.hi $RPM_BUILD_ROOT%{_datadir}/omega/omega.hi
+ln -sf /var/games/omega/omega.log $RPM_BUILD_ROOT%{_datadir}/omega/omega.log
 
 gzip -9nf omega_faq.txt omega_spoiler.txt
 
