@@ -1,0 +1,26 @@
+diff -ruN omega/src/scr.c 2/src/scr.c
+--- omega/src/scr.c	Fri Jun 24 03:28:23 1994
++++ 2/src/scr.c	Wed Mar 27 14:25:53 2002
+@@ -28,10 +28,6 @@
+ WINDOW *Comwin,*Msg1w,*Msg2w,*Msg3w,*Msgw;
+ WINDOW *Showline[MAXITEMS];
+ 
+-#if !defined(MSDOS) && !defined(AMIGA)
+-void wattrset ARGS((WINDOW *, int));
+-#endif
+-
+ void phaseprint()
+ {
+   wclear(Phasew);
+@@ -1718,11 +1714,3 @@
+   touchwin(stdscr);
+   refresh();
+ }
+-
+-#if !defined(MSDOS) && !defined(AMIGA)
+-/* this function will never be called if we're neither MSDOS nor AMIGA, */
+-/* but the linker needs something, naturally... */
+-void wattrset(WINDOW *w, int s)
+-{
+-}
+-#endif
