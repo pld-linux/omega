@@ -6,8 +6,11 @@ Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://yarws.kid.waw.pl/files/%{name}.tar.gz
+# Source0-md5:	b5dafc2f2e41cc40e3eb356074f3a152
 Source1:	http://yarws.kid.waw.pl/files/%{name}_spoiler.zip
+# Source1-md5:	cb9564f6def21e91ab0824f3f23b4c34
 Source2:	http://yarws.kid.waw.pl/files/%{name}_faq.zip
+# Source2-md5:	744607cd937ca8478881204c901e00eb
 Patch0:		%{name}-config.patch
 Patch1:		%{name}-shit.patch
 URL:		http://www.alcyone.com/max/projects/omega/
