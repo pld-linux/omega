@@ -71,7 +71,7 @@ Satanic Male Voice: If you dare! <laughs insanely>
 (UJÊCIE POCZ¡TKOWE) Zmêczony POSZUKIWACZ PRZYGÓD w poobijanej zbroi,
 nosz±cy 10 ¶wiec±cych pier¶cieni, ¶ciskaj±cy w d³oni butelkê
 z napojem, i za³adowany wszelakimi rodzajami broni, magicznych
-urz±dzeñ oraz sakw ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem
+urz±dzeñ oraz sakiew ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem
 do ponurego Lochu. Okoliczna sceneria jest jednako szara
 i nieinteresuj±ca.
 
