@@ -15,6 +15,7 @@ Patch0:		%{name}-config.patch
 Patch1:		%{name}-shit.patch
 URL:		http://www.alcyone.com/max/projects/omega/
 BuildRequires:	ncurses-devel
+BuildRequires:	unzip
 Requires:	gzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
