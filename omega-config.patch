@@ -1,0 +1,42 @@
+diff -ruN 2/src/Makefile omega/src/Makefile
+--- 2/src/Makefile	Mon Jul 18 07:00:55 1994
++++ omega/src/Makefile	Wed Mar 27 14:15:52 2002
+@@ -1,7 +1,7 @@
+ # These two definitions are used if you 'make install'
+ # the value of LIBDIR should be the same as OMEGALIB in defs.h
+ BINDIR = /usr/games
+-LIBDIR = /usr/games/lib/omegalib
++LIBDIR = /usr/share/omega
+ 
+ # One of these should be uncommented, as appropriate, unless your compiler
+ # does it for you.  You can test this by simply trying to 'make' omega -
+@@ -23,7 +23,7 @@
+ 
+ # comment out one of the following two, after establishing whether your
+ # machine uses termcap (most BSD machines) or terminfo (System-V)
+-LIBS = -lcurses -ltermcap
++LIBS = -lncurses
+ #LIBS = -lcurses -ltermlib
+ 
+ #################### that's it for changing the Makefile ####################
+diff -ruN 2/src/defs.h omega/src/defs.h
+--- 2/src/defs.h	Mon Jul 18 07:01:19 1994
++++ omega/src/defs.h	Wed Mar 27 14:20:14 2002
+@@ -45,7 +45,7 @@
+    This might usually be "/usr/games/lib/omegalib/", for unix,
+    or something like "c:\\games\\omega\\omegalib\\" for msdos */
+ 
+-#define OMEGALIB "/usr/games/lib/omegalib/"
++#define OMEGALIB "/usr/share/omega/"
+ 
+ /* Comment the following line out if you want users to be able to override */
+ /* the OMEGALIB define, above, by setting the environment variable OMEGALIB */
+@@ -59,7 +59,7 @@
+ 
+ /* set WIZARD to maintainers's username */
+ 
+-#define WIZARD "rendell"
++#define WIZARD "root"
+ 
+ /* If CATCH_SIGNALS is set to 1, will not dump core, nicer for players. */
+ /* dbx still intercepts the signals first, so it's ok for debugging */
