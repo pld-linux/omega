@@ -18,8 +18,6 @@ BuildRequires:	ncurses-devel
 Requires:	gzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_bindir		%{_prefix}/games
-
 %description
 (ESTABLISHING SHOT) A weary ADVENTURER, wearing battered armor and 10
 glowing rings, clutching a potion bottle, and laden with all manner of
