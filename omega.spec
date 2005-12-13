@@ -130,7 +130,7 @@ Szatañski Mêski G³os: Je¿eli siê odwa¿ysz! <szalony ¶miech>
 cd src
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags} -DSYSV -I%{_includedir}/ncurses" \
+	CFLAGS="%{rpmcflags} -DSYSV -I/usr/include/ncurses" \
 	LDFLAGS="%{rpmldflags}"
 
 %install
