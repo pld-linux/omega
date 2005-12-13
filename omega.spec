@@ -71,11 +71,11 @@ Satanic Male Voice: If you dare! <laughs insanely>
 
 %description -l pl
 (UJÊCIE POCZ¡TKOWE) Zmêczony POSZUKIWACZ PRZYGÓD w poobijanej zbroi,
-nosz±cy 10 ¶wiec±cych pier¶cieni, ¶ciskaj±cy w d³oni butelkê
-z napojem, i za³adowany wszelakimi rodzajami broni, magicznych
-urz±dzeñ oraz sakw ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem
-do ponurego Lochu. Okoliczna sceneria jest jednako szara
-i nieinteresuj±ca.
+nosz±cy 10 ¶wiec±cych pier¶cieni, ¶ciskaj±cy w d³oni butelkê z
+napojem, i za³adowany wszelakimi rodzajami broni, magicznych urz±dzeñ
+oraz sakw ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem do
+ponurego Lochu. Okoliczna sceneria jest jednako szara i
+nieinteresuj±ca.
 
 Szorstki Mêski G³os: Odzyska³e¶ Amulet Yendoru zbyt wiele razy, by móc
 zliczyæ?
@@ -86,8 +86,8 @@ SMG: Zjad³e¶ zbyt du¿o Zombich?
 
 ZKG: Skoñczyli siê Wy¿si Bogowie do zabicia?
 
-ZBLI¯ENIE: Twarz POSZUKIWACZA PRZYGÓD, sp³ywaj±ca stru¿kami potu,
-jest pociêta i posiniaczona. £ypie z niej czarne oko.
+ZBLI¯ENIE: Twarz POSZUKIWACZA PRZYGÓD, sp³ywaj±ca stru¿kami potu, jest
+pociêta i posiniaczona. £ypie z niej czarne oko.
 
 POSZUKIWACZ PRZYGÓD skin±³ g³ow± ze zmêczeniem, a tak¿e, jak mo¿na
 zauwa¿yæ, z pewnym znudzeniem.
@@ -101,9 +101,9 @@ mega!
 Jasny s³oneczny promieñ przebija siê przez zachmurzone niebo, ukazuj±c
 Mistyczny Portal w niebie. Têczowy most pêdzi od portalu ku
 POSZUKIWACZOWI PRZYGÓD. Gdy POSZUKIWACZ PRZYGÓD niepewnie stawia stopê
-na mo¶cie, zostaje (wraz z ogl±daj±cym) zmieciony poprzez M.P.
-w mistrzowskiej animacji komputerowej. Nastêpuje b³ysk ¶wiat³a
-i ODMIENIONY POSZUKIWACZ PRZYGÓD, w ¶wie¿o wypolerowanej, b³yszcz±cej
+na mo¶cie, zostaje (wraz z ogl±daj±cym) zmieciony poprzez M.P. w
+mistrzowskiej animacji komputerowej. Nastêpuje b³ysk ¶wiat³a i
+ODMIENIONY POSZUKIWACZ PRZYGÓD, w ¶wie¿o wypolerowanej, b³yszcz±cej
 zbroi, trzymaj±cy p³on±cy miecz, kroczy pewny siebie ku gmachowi, przy
 którym Zamek Ostatecznej Ciemnoty wygl±da jak zamek z piasku.
 Otaczaj±cy teren jest pe³en ¿ywych kolorów. Czuje siê, ¿e nowe
@@ -155,6 +155,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(2755,root,games) %{_bindir}/omega
 %{_datadir}/omega
 %dir /var/games/omega
-%attr(664,root,games) %config(noreplace) %verify(not,md5,size,mtime) /var/games/omega/omega.hi
-%attr(664,root,games) %config(noreplace) %verify(not,md5,size,mtime) /var/games/omega/omega.log
+%attr(664,root,games) %config(noreplace) %verify(not md5 mtime size) /var/games/omega/omega.hi
+%attr(664,root,games) %config(noreplace) %verify(not md5 mtime size) /var/games/omega/omega.log
 %{_mandir}/man6/*
