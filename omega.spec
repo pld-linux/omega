@@ -1,5 +1,5 @@
 Summary:	Old and very difficult roguelike game
-Summary(pl):	Stara i bardzo trudna gra roguelike
+Summary(pl.UTF-8):   Stara i bardzo trudna gra roguelike
 Name:		omega
 Version:	0.80.2
 Release:	1
@@ -69,57 +69,57 @@ bulkhead, and we hear a muffled scream, soon cut off.
 
 Satanic Male Voice: If you dare! <laughs insanely>
 
-%description -l pl
-(UJÊCIE POCZ¡TKOWE) Zmêczony POSZUKIWACZ PRZYGÓD w poobijanej zbroi,
-nosz±cy 10 ¶wiec±cych pier¶cieni, ¶ciskaj±cy w d³oni butelkê z
-napojem, i za³adowany wszelakimi rodzajami broni, magicznych urz±dzeñ
-oraz sakw ze z³otem sapie le¿±c przed z³owieszczym wej¶ciem do
+%description -l pl.UTF-8
+(UJÄ˜CIE POCZÄ„TKOWE) ZmÄ™czony POSZUKIWACZ PRZYGÃ“D w poobijanej zbroi,
+noszÄ…cy 10 Å›wiecÄ…cych pierÅ›cieni, Å›ciskajÄ…cy w dÅ‚oni butelkÄ™ z
+napojem, i zaÅ‚adowany wszelakimi rodzajami broni, magicznych urzÄ…dzeÅ„
+oraz sakw ze zÅ‚otem sapie leÅ¼Ä…c przed zÅ‚owieszczym wejÅ›ciem do
 ponurego Lochu. Okoliczna sceneria jest jednako szara i
-nieinteresuj±ca.
+nieinteresujÄ…ca.
 
-Szorstki Mêski G³os: Odzyska³e¶ Amulet Yendoru zbyt wiele razy, by móc
-zliczyæ?
+Szorstki MÄ™ski GÅ‚os: OdzyskaÅ‚eÅ› Amulet Yendoru zbyt wiele razy, by mÃ³c
+zliczyÄ‡?
 
-Zmys³owy Kobiecy G³os: Nie widzisz nic w Oku Larna?
+ZmysÅ‚owy Kobiecy GÅ‚os: Nie widzisz nic w Oku Larna?
 
-SMG: Zjad³e¶ zbyt du¿o Zombich?
+SMG: ZjadÅ‚eÅ› zbyt duÅ¼o Zombich?
 
-ZKG: Skoñczyli siê Wy¿si Bogowie do zabicia?
+ZKG: SkoÅ„czyli siÄ™ WyÅ¼si Bogowie do zabicia?
 
-ZBLI¯ENIE: Twarz POSZUKIWACZA PRZYGÓD, sp³ywaj±ca stru¿kami potu, jest
-pociêta i posiniaczona. £ypie z niej czarne oko.
+ZBLIÅ»ENIE: Twarz POSZUKIWACZA PRZYGÃ“D, spÅ‚ywajÄ…ca struÅ¼kami potu, jest
+pociÄ™ta i posiniaczona. Åypie z niej czarne oko.
 
-POSZUKIWACZ PRZYGÓD skin±³ g³ow± ze zmêczeniem, a tak¿e, jak mo¿na
-zauwa¿yæ, z pewnym znudzeniem.
+POSZUKIWACZ PRZYGÃ“D skinÄ…Å‚ gÅ‚owÄ… ze zmÄ™czeniem, a takÅ¼e, jak moÅ¼na
+zauwaÅ¼yÄ‡, z pewnym znudzeniem.
 
-SMG+ZKG: Zatem podejmij siê ostatecznego wyzwania... Ostatniego
+SMG+ZKG: Zatem podejmij siÄ™ ostatecznego wyzwania... Ostatniego
 zadania... OMEGA!
 
-(SPOJRZENIE W KIERUNKU NIEBA) Chór Mormoñskiej ¦wi±tyni: Ooooooo --
+(SPOJRZENIE W KIERUNKU NIEBA) ChÃ³r MormoÅ„skiej ÅšwiÄ…tyni: Ooooooo --
 mega!
 
-Jasny s³oneczny promieñ przebija siê przez zachmurzone niebo, ukazuj±c
-Mistyczny Portal w niebie. Têczowy most pêdzi od portalu ku
-POSZUKIWACZOWI PRZYGÓD. Gdy POSZUKIWACZ PRZYGÓD niepewnie stawia stopê
-na mo¶cie, zostaje (wraz z ogl±daj±cym) zmieciony poprzez M.P. w
-mistrzowskiej animacji komputerowej. Nastêpuje b³ysk ¶wiat³a i
-ODMIENIONY POSZUKIWACZ PRZYGÓD, w ¶wie¿o wypolerowanej, b³yszcz±cej
-zbroi, trzymaj±cy p³on±cy miecz, kroczy pewny siebie ku gmachowi, przy
-którym Zamek Ostatecznej Ciemnoty wygl±da jak zamek z piasku.
-Otaczaj±cy teren jest pe³en ¿ywych kolorów. Czuje siê, ¿e nowe
-wyzwania czekaj± tu¿ nad horyzontem.
+Jasny sÅ‚oneczny promieÅ„ przebija siÄ™ przez zachmurzone niebo, ukazujÄ…c
+Mistyczny Portal w niebie. TÄ™czowy most pÄ™dzi od portalu ku
+POSZUKIWACZOWI PRZYGÃ“D. Gdy POSZUKIWACZ PRZYGÃ“D niepewnie stawia stopÄ™
+na moÅ›cie, zostaje (wraz z oglÄ…dajÄ…cym) zmieciony poprzez M.P. w
+mistrzowskiej animacji komputerowej. NastÄ™puje bÅ‚ysk Å›wiatÅ‚a i
+ODMIENIONY POSZUKIWACZ PRZYGÃ“D, w Å›wieÅ¼o wypolerowanej, bÅ‚yszczÄ…cej
+zbroi, trzymajÄ…cy pÅ‚onÄ…cy miecz, kroczy pewny siebie ku gmachowi, przy
+ktÃ³rym Zamek Ostatecznej Ciemnoty wyglÄ…da jak zamek z piasku.
+OtaczajÄ…cy teren jest peÅ‚en Å¼ywych kolorÃ³w. Czuje siÄ™, Å¼e nowe
+wyzwania czekajÄ… tuÅ¼ nad horyzontem.
 
-CM¦: Wspania³o¶æ! Wspania³o¶æ! Wspania³o¶æ!
+CMÅš: WspaniaÅ‚oÅ›Ä‡! WspaniaÅ‚oÅ›Ä‡! WspaniaÅ‚oÅ›Ä‡!
 
-SMG: Wkrótce na pobliskich maszynach!
+SMG: WkrÃ³tce na pobliskich maszynach!
 
-ZKG: Podejmij siê Omegi -- Ostatecznego Zadania!
+ZKG: Podejmij siÄ™ Omegi -- Ostatecznego Zadania!
 
-Gdy POSZUKIWACZ PRZYGÓD przekracza wej¶cie do STRASZLIWEGO ZAMKU,
-ogromna krata zatrzaskuje siê za nim z si³± grodzi Gwiazdy ¦mierci, po
-czym s³ychaæ g³uchy krzyk, szybko uciêty.
+Gdy POSZUKIWACZ PRZYGÃ“D przekracza wejÅ›cie do STRASZLIWEGO ZAMKU,
+ogromna krata zatrzaskuje siÄ™ za nim z siÅ‚Ä… grodzi Gwiazdy Åšmierci, po
+czym sÅ‚ychaÄ‡ gÅ‚uchy krzyk, szybko uciÄ™ty.
 
-Szatañski Mêski G³os: Je¿eli siê odwa¿ysz! <szalony ¶miech>
+SzataÅ„ski MÄ™ski GÅ‚os: JeÅ¼eli siÄ™ odwaÅ¼ysz! <szalony Å›miech>
 
 %prep
 %setup -q -a1 -a2 -n %{name}
