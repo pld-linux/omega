@@ -1,5 +1,5 @@
 Summary:	Old and very difficult roguelike game
-Summary(pl.UTF-8):   Stara i bardzo trudna gra roguelike
+Summary(pl.UTF-8):	Stara i bardzo trudna gra roguelike
 Name:		omega
 Version:	0.80.2
 Release:	1
